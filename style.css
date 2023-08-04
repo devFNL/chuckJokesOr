@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Poppins:wght@100&family=Raleway:wght@100&display=swap");
+
+* {
+  font-family: "Handjet", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  padding: 5px;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(80, 13, 26);
+}
+
+.container {
+  margin: 30px auto;
+  display: block;
+  align-items: center;
+  background-color: rgb(104, 12, 30);
+  width: 60%;
+  border-radius: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.joke {
+  margin: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 15vh;
+}
+
+p {
+  color: rgb(245, 229, 200);
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  padding: auto;
+  border: 1px dashed white;
+  background-color: rgb(87, 84, 81);
+  user-select: none;
+  cursor: pointer;
+}
+
+.categories {
+  background-color: rgb(49, 9, 9);
+  display: flex;
+  margin: auto;
+  padding: 15px;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  color: wheat;
+  align-items: center;
+  width: 10%;
+  border-radius: 10px;
+}
+
+#next {
+  margin-bottom: 5px;
+}
+
+.buttons {
+  display: flex;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+  border-bottom: 2px solid white;
+}
+
+select option,
+.catOptions {
+  font-weight: bold;
+  -webkit-appearance: none; /* Safari y Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none;
+  text-align: center;
+}
